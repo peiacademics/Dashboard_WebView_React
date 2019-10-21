@@ -61,11 +61,19 @@ import LoginV3 from './../pages/user/login-v3.js';
 import RegisterV3 from './../pages/user/register-v3.js';
 import HelperCSS from './../pages/helper/helper-css.js';
 
+import Signup from './../pages/signup/signup';
+
+
 const routes = [
   {
     path: '/',
     exact: true,
     component: () => <Redirect to='/dashboard' />
+  },
+  {
+    path: '/signup',
+    exact: true,
+    component: () => <Signup />
   },
   {
     path: '/dashboard',

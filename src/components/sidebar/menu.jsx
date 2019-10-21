@@ -35,6 +35,11 @@ const Menu = [
     title: 'Orders'
   },
   {
+    path: '/signup',
+    icon: 'fa fa-user',
+    title: 'User Creation'
+  },
+  {
     path: '/table',
     icon: 'fa fa-table',
     title: 'Logout'
