@@ -3,7 +3,9 @@ import DatePicker from 'react-datepicker';
 import Select from 'react-select';
 import { Link } from 'react-router-dom';
 import './signup.css';
+import CountryOptions from '../../components/constants/country'
 import { Panel, PanelHeader, PanelBody } from '../../components/panel/panel.jsx';
+import { th } from 'date-fns/esm/locale';
 class Signup extends React.Component {
     constructor(props){
         super(props);
@@ -12,13 +14,21 @@ class Signup extends React.Component {
                 startDate: date
             });
         }
+        this.CountryHandler = (selected) => {
+          this.setState({
+            SateOptions:this.Country.find(c => c.country === selected.country).StateOptions
+          })
+        }
         this.state = {
             startDate: new Date(),
+            SateOptions : []
         }
         this.selectOptions = [
 			{ value: 'active', label: 'Active' },
 			{ value: 'archived', label: 'Archived' }
-		];
+        ];
+        this.Country = CountryOptions;
+        
     }
    
 	render() {
@@ -45,12 +55,18 @@ class Signup extends React.Component {
                         <br/>
                         <label className="col-md-3 col-form-label">DOB</label>
                         <div className="col-md-7"><DatePicker selected={this.state.startDate} onChange={this.handleChange} className="form-control" /></div>
-                        <label className="col-md-3 col-form-label">Address</label>
-                        <div className="col-md-7"><input type="text" className="form-control" /></div>
+                        <label className="col-md-3 col-form-label">City</label>
+                        <div className="col-md-3"><input type="text" className="form-control" /></div>
+                        <label className="col-md-3 col-form-label">PinCode</label>
+                        <div className="col-md-3"><input type="text" className="form-control" /></div>
                         <label className="col-md-3 col-form-label">Phone Number</label>
                         <div className="col-md-7"><input type="number" className="form-control" /></div>
-                        <label className="col-md-3 col-form-label">Status</label>
-                        <div className="col-md-7"><Select options={this.selectOptions} /></div>
+                        <label className="col-md-3 col-form-label m-b-10">Status</label>
+                        <div className="col-md-7 m-b-10"><Select options={this.selectOptions} /></div>
+                        <label className="col-md-3 col-form-label m-b-10">Country</label>
+                        <div className="col-md-3 m-b-10"><Select onChange={this.CountryHandler} options={this.Country} /></div>
+                        <label className="col-md-3 col-form-label">State</label>
+                        <div className="col-md-3"><Select options={this.state.SateOptions} /></div>
                         <br/>
                         <button type="button" className="btn btn-green btn-block">Submit</button>
                     </div>
