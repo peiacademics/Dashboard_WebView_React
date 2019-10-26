@@ -46,6 +46,17 @@ const Menu = [
     ]
   },
   {
+    icon: 'fa fa-user',
+    title: 'Edit/Delete Users',
+    children: [
+      { path: '/manageusers', title: 'User' },
+      { path: '/managestudents', title: 'PE Students' },
+      { path: '/manageparents', title: 'PE Parents' },
+      { path: '/manageclients', title: 'Clients' },
+      { path: '/manageexperts', title: 'PE Expert' },
+    ]
+  },
+  {
     path: '/table',
     icon: 'fa fa-table',
     title: 'Logout'

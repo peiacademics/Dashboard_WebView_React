@@ -67,12 +67,42 @@ import PeParentCreation from '../pages/signup/peParentsCreation';
 import ClientCreation from '../pages/signup/clientCreation';
 import ExpertCreation from '../pages/signup/expertCreation';
 
+import CrudUser from '../pages/crudUsers/crudUser';
+import CrudExpert from '../pages/crudUsers/crudExpert';
+import CrudParent from '../pages/crudUsers/crudParent';
+import CrudStudent from '../pages/crudUsers/crudStudent';
+import CrudClient from '../pages/crudUsers/crudClient';
 
 const routes = [
   {
     path: '/',
     exact: true,
     component: () => <Redirect to='/dashboard' />
+  },
+  {
+    path: '/manageusers',
+    exact: true,
+    component: () => <CrudUser />
+  },
+  {
+    path: '/managestudents',
+    exact: true,
+    component: () => <CrudStudent />
+  },
+  {
+    path: '/manageparents',
+    exact: true,
+    component: () => <CrudParent />
+  },
+  {
+    path: '/manageclients',
+    exact: true,
+    component: () => <CrudClient />
+  },
+  {
+    path: '/manageexperts',
+    exact: true,
+    component: () => <CrudExpert />
   },
   {
     path: '/usercreation',
