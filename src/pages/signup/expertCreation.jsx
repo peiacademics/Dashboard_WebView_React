@@ -6,7 +6,7 @@ import './signup.css';
 import CountryOptions from '../../components/constants/country'
 import { Panel, PanelHeader, PanelBody } from '../../components/panel/panel.jsx';
 import { th } from 'date-fns/esm/locale';
-class Signup extends React.Component {
+class ExpertCreation extends React.Component {
     constructor(props){
         super(props);
         this.handleChange = (date) => {
@@ -27,6 +27,14 @@ class Signup extends React.Component {
 			{ value: 'active', label: 'Active' },
 			{ value: 'archived', label: 'Archived' }
         ];
+        this.UserTypeOptions = [
+            { value: 'superAdmin', label: 'Super Admin' },
+            { value: 'systemAdmin', label: 'System Admin' },
+            { value: 'admin', label: 'Admin' },
+            { value: 'officeStaff', label: 'Office Staff' },
+            { value: 'cloudStaff', label: 'Cloud Staff' },
+            { value: 'intern', label: 'intern' },
+        ]
         this.Country = CountryOptions;
         
     }
@@ -44,29 +52,46 @@ class Signup extends React.Component {
 				<Panel>
 					<PanelHeader>User Registration</PanelHeader>
 					<PanelBody>
-                    <div className="form-group row m-b-15 user_form">
+                        <div className="form-group row m-b-15 user_form">
+                        <label className="col-md-3 col-form-label">First Name</label>
+                        <div className="col-md-7"><input type="text" className="form-control" /></div>
+                        <label className="col-md-3 col-form-label">Middle Name</label>
+                        <div className="col-md-7"><input type="text" className="form-control" /></div>
+                        <label className="col-md-3 col-form-label">Last Name</label>
+                        <div className="col-md-7"><input type="text" className="form-control" /></div>
+
                         <label className="col-md-3 col-form-label">Username</label>
                         <div className="col-md-7"><input type="text" className="form-control" /></div>
-                        <label className="col-md-3 col-form-label">Email</label>
-                        <div className="col-md-7"><input type="text" className="form-control" /></div>
-                        <br/>
                         <label className="col-md-3 col-form-label">Password</label>
                         <div className="col-md-7"><input type="text" className="form-control" /></div>
-                        <br/>
-                        <label className="col-md-3 col-form-label">DOB</label>
-                        <div className="col-md-7"><DatePicker selected={this.state.startDate} onChange={this.handleChange} className="form-control" /></div>
+
+                        <label className="col-md-3 col-form-label">Primary Email</label>
+                        <div className="col-md-7"><input type="text" className="form-control" /></div>
+                        <label className="col-md-3 col-form-label">Secondary Email</label>
+                        <div className="col-md-7"><input type="text" className="form-control" /></div>
+
+                        <label className="col-md-3 col-form-label">Primary Phone Number</label>
+                        <div className="col-md-7"><input type="number" className="form-control" /></div>
+                        <label className="col-md-3 col-form-label">Secondary Phone Number</label>
+                        <div className="col-md-7"><input type="number" className="form-control" /></div>
+
+                        <label className="col-md-3 col-form-label">Address</label>
+                        <div className="col-md-7"><input type="text" className="form-control" /></div>
                         <label className="col-md-3 col-form-label">City</label>
                         <div className="col-md-3"><input type="text" className="form-control" /></div>
                         <label className="col-md-3 col-form-label">PinCode</label>
                         <div className="col-md-3"><input type="text" className="form-control" /></div>
-                        <label className="col-md-3 col-form-label">Phone Number</label>
-                        <div className="col-md-7"><input type="number" className="form-control" /></div>
-                        <label className="col-md-3 col-form-label m-b-10">Status</label>
-                        <div className="col-md-7 m-b-10"><Select options={this.selectOptions} /></div>
                         <label className="col-md-3 col-form-label m-b-10">Country</label>
                         <div className="col-md-3 m-b-10"><Select onChange={this.CountryHandler} options={this.Country} /></div>
                         <label className="col-md-3 col-form-label">State</label>
                         <div className="col-md-3"><Select options={this.state.SateOptions} /></div>
+
+                        <label className="col-md-3 col-form-label m-b-10">Status</label>
+                        <div className="col-md-7 m-b-10"><Select options={this.selectOptions} /></div>
+        
+                        <label className="col-md-3 col-form-label">Created Date</label>
+                        <div className="col-md-7"><DatePicker selected={this.state.startDate} onChange={this.handleChange} className="form-control" /></div>
+                        
                         <br/>
                         <button type="button" className="btn btn-green btn-block">Submit</button>
                     </div>
@@ -80,4 +105,4 @@ class Signup extends React.Component {
 	}
 }
 
-export default Signup;
+export default ExpertCreation;

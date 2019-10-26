@@ -61,7 +61,11 @@ import LoginV3 from './../pages/user/login-v3.js';
 import RegisterV3 from './../pages/user/register-v3.js';
 import HelperCSS from './../pages/helper/helper-css.js';
 
-import Signup from './../pages/signup/signup';
+import UserCreation from '../pages/signup/userCreation';
+import PeStudentCreation from '../pages/signup/peStudentCreation';
+import PeParentCreation from '../pages/signup/peParentsCreation';
+import ClientCreation from '../pages/signup/clientCreation';
+import ExpertCreation from '../pages/signup/expertCreation';
 
 
 const routes = [
@@ -71,9 +75,29 @@ const routes = [
     component: () => <Redirect to='/dashboard' />
   },
   {
-    path: '/signup',
+    path: '/usercreation',
     exact: true,
-    component: () => <Signup />
+    component: () => <UserCreation />
+  },
+  {
+    path: '/pestudentcreation',
+    exact: true,
+    component: () => <PeStudentCreation />
+  },
+  {
+    path: '/parentscreation',
+    exact: true,
+    component: () => <PeParentCreation />
+  },
+  {
+    path: '/clientscreation',
+    exact: true,
+    component: () => <ClientCreation />
+  },
+  {
+    path: '/peexpertcreation',
+    exact: true,
+    component: () => <ExpertCreation />
   },
   {
     path: '/dashboard',

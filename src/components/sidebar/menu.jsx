@@ -35,9 +35,15 @@ const Menu = [
     title: 'Orders'
   },
   {
-    path: '/signup',
     icon: 'fa fa-user',
-    title: 'User Creation'
+    title: 'User',
+    children: [
+      { path: '/usercreation', title: 'User Creation' },
+      { path: '/pestudentcreation', title: 'PE Students' },
+      { path: '/parentscreation', title: 'PE Parents' },
+      { path: '/clientscreation', title: 'Clients' },
+      { path: '/peexpertcreation', title: 'PE Expert' },
+    ]
   },
   {
     path: '/table',
