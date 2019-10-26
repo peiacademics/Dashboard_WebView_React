@@ -50,7 +50,7 @@ class PeStudentCreation extends React.Component {
 				</ol> */}
 				{/* <h1 className="page-header">Home <small>header small text goes here...</small></h1> */}
 				<Panel>
-					<PanelHeader>User Registration</PanelHeader>
+					<PanelHeader>Student Registration</PanelHeader>
 					<PanelBody>
                         <div className="form-group row m-b-15 user_form">
                         <label className="col-md-3 col-form-label">First Name</label>
