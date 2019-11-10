@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/peiacademics/Dashboard_WebView_React/tree/Prakhar_Frontend_Clientside/static/css/main.2a885357.chunk.css",
-    "main.js": "/peiacademics/Dashboard_WebView_React/tree/Prakhar_Frontend_Clientside/static/js/main.92d9ef2a.chunk.js",
-    "main.js.map": "/peiacademics/Dashboard_WebView_React/tree/Prakhar_Frontend_Clientside/static/js/main.92d9ef2a.chunk.js.map",
-    "runtime~main.js": "/peiacademics/Dashboard_WebView_React/tree/Prakhar_Frontend_Clientside/static/js/runtime~main.f6f141a2.js",
-    "runtime~main.js.map": "/peiacademics/Dashboard_WebView_React/tree/Prakhar_Frontend_Clientside/static/js/runtime~main.f6f141a2.js.map",
-    "static/css/2.1ba753b6.chunk.css": "/peiacademics/Dashboard_WebView_React/tree/Prakhar_Frontend_Clientside/static/css/2.1ba753b6.chunk.css",
-    "static/js/2.20e4ea3e.chunk.js": "/peiacademics/Dashboard_WebView_React/tree/Prakhar_Frontend_Clientside/static/js/2.20e4ea3e.chunk.js",
-    "static/js/2.20e4ea3e.chunk.js.map": "/peiacademics/Dashboard_WebView_React/tree/Prakhar_Frontend_Clientside/static/js/2.20e4ea3e.chunk.js.map",
-    "index.html": "/peiacademics/Dashboard_WebView_React/tree/Prakhar_Frontend_Clientside/index.html",
-    "precache-manifest.10090c655501716efab13ad0b65b582c.js": "/peiacademics/Dashboard_WebView_React/tree/Prakhar_Frontend_Clientside/precache-manifest.10090c655501716efab13ad0b65b582c.js",
-    "service-worker.js": "/peiacademics/Dashboard_WebView_React/tree/Prakhar_Frontend_Clientside/service-worker.js",
-    "static/css/2.1ba753b6.chunk.css.map": "/peiacademics/Dashboard_WebView_React/tree/Prakhar_Frontend_Clientside/static/css/2.1ba753b6.chunk.css.map",
-    "static/css/main.2a885357.chunk.css.map": "/peiacademics/Dashboard_WebView_React/tree/Prakhar_Frontend_Clientside/static/css/main.2a885357.chunk.css.map",
-    "static/media/simple-line-icons.css": "/peiacademics/Dashboard_WebView_React/tree/Prakhar_Frontend_Clientside/static/media/Simple-Line-Icons.f33df365.eot",
-    "static/media/flag-icon.min.css": "/peiacademics/Dashboard_WebView_React/tree/Prakhar_Frontend_Clientside/static/media/zw.8b885465.svg",
-    "static/media/index.css": "/peiacademics/Dashboard_WebView_React/tree/Prakhar_Frontend_Clientside/static/media/profile-cover.f776f63e.jpg",
-    "static/media/all.min.css": "/peiacademics/Dashboard_WebView_React/tree/Prakhar_Frontend_Clientside/static/media/fa-solid-900.c2801fb4.svg"
+    "main.css": "/Dashboard_WebView_React/tree/Prakhar_Frontend_Clientside/static/css/main.ebbc19e3.chunk.css",
+    "main.js": "/Dashboard_WebView_React/tree/Prakhar_Frontend_Clientside/static/js/main.92d9ef2a.chunk.js",
+    "main.js.map": "/Dashboard_WebView_React/tree/Prakhar_Frontend_Clientside/static/js/main.92d9ef2a.chunk.js.map",
+    "runtime~main.js": "/Dashboard_WebView_React/tree/Prakhar_Frontend_Clientside/static/js/runtime~main.e15b6cb6.js",
+    "runtime~main.js.map": "/Dashboard_WebView_React/tree/Prakhar_Frontend_Clientside/static/js/runtime~main.e15b6cb6.js.map",
+    "static/css/2.d2d95adf.chunk.css": "/Dashboard_WebView_React/tree/Prakhar_Frontend_Clientside/static/css/2.d2d95adf.chunk.css",
+    "static/js/2.55144b3a.chunk.js": "/Dashboard_WebView_React/tree/Prakhar_Frontend_Clientside/static/js/2.55144b3a.chunk.js",
+    "static/js/2.55144b3a.chunk.js.map": "/Dashboard_WebView_React/tree/Prakhar_Frontend_Clientside/static/js/2.55144b3a.chunk.js.map",
+    "index.html": "/Dashboard_WebView_React/tree/Prakhar_Frontend_Clientside/index.html",
+    "precache-manifest.60cce068a486ab7474e38d14edf2bcd6.js": "/Dashboard_WebView_React/tree/Prakhar_Frontend_Clientside/precache-manifest.60cce068a486ab7474e38d14edf2bcd6.js",
+    "service-worker.js": "/Dashboard_WebView_React/tree/Prakhar_Frontend_Clientside/service-worker.js",
+    "static/css/2.d2d95adf.chunk.css.map": "/Dashboard_WebView_React/tree/Prakhar_Frontend_Clientside/static/css/2.d2d95adf.chunk.css.map",
+    "static/css/main.ebbc19e3.chunk.css.map": "/Dashboard_WebView_React/tree/Prakhar_Frontend_Clientside/static/css/main.ebbc19e3.chunk.css.map",
+    "static/media/simple-line-icons.css": "/Dashboard_WebView_React/tree/Prakhar_Frontend_Clientside/static/media/Simple-Line-Icons.f33df365.eot",
+    "static/media/flag-icon.min.css": "/Dashboard_WebView_React/tree/Prakhar_Frontend_Clientside/static/media/zw.8b885465.svg",
+    "static/media/index.css": "/Dashboard_WebView_React/tree/Prakhar_Frontend_Clientside/static/media/profile-cover.f776f63e.jpg",
+    "static/media/all.min.css": "/Dashboard_WebView_React/tree/Prakhar_Frontend_Clientside/static/media/fa-solid-900.c2801fb4.svg"
   }
 }

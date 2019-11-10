@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/peiacademics/Dashboard_WebView_React/tree/Prakhar_Frontend_Clientside/precache-manifest.10090c655501716efab13ad0b65b582c.js"
+  "/Dashboard_WebView_React/tree/Prakhar_Frontend_Clientside/precache-manifest.60cce068a486ab7474e38d14edf2bcd6.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -33,7 +33,7 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/peiacademics/Dashboard_WebView_React/tree/Prakhar_Frontend_Clientside/index.html"), {
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/Dashboard_WebView_React/tree/Prakhar_Frontend_Clientside/index.html"), {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
